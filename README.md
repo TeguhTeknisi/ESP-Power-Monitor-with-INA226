@@ -1,9 +1,9 @@
 # ESP-Power-Monitor-with-INA226
-ESP8266 Power Monitor with INA226 adalah alat ukur voltase, arus, daya dan energi dengan tambahan modul DHT11 untuk ukur temperatur dan kelembaban.
+<b>ESP8266 Power Monitor with INA226</b> adalah alat ukur voltase, arus, daya dan energi dengan tambahan modul DHT11 untuk ukur temperatur dan kelembaban.
 Alat ini dibuat sesuai kebutuhan sistem plts di tempat ana, dan ana tidak men jamin bisa jalan di tempat lain.
 Alat ini kurang cocok untuk mengukur ke beban Inverter yang banyak Noise nya.
 
-Harus pakai Server Blynk Lokal , tutorial ada disini https://github.com/TeguhTeknisi/blynk-server
+📣 Harus pakai Server Blynk Lokal , tutorial ada disini https://github.com/TeguhTeknisi/blynk-server
 Sekedar info, ana install server blynk ke laptop ubuntu linux, tapi bisa juga di install ke android yang di instali linux.
 Tambahan, Kalau mau pakai Server Online, silahkan modif codenya.
 
@@ -40,6 +40,8 @@ Untuk Kode nya ana seting untuk:
 ☑️ Komponen Kapasitor 100nF fungsinya untuk filter, usahakan pakai Kapasitor Keramik, bisa Keramik biasa atau multilayer.
 
 ☑️ Komponen Dioda bisa pakai IN4001 sampai IN4007, untuk pengaman jika salah polaritas agar tidak rusak.
+
+☑️ Modul DHT11 ana pakai untuk mengukur temperature dan kelembaban di dalam box plts, bisa dipakai atau gak dipakai.
 
 ✔️ Untuk Codenya ana ambil dari berbagai tempat, sumbernya ada dibawah ini:
 1. https://forum.arduino.cc/t/solar-power-monitor-w-ina226-and-esp8266-v1/649695
