@@ -1,10 +1,19 @@
 # ESP-Power-Monitor-with-INA226
 ESP8266 Power Monitor with INA226 adalah alat ukur voltase, arus, daya dan energi dengan tambahan modul dht11 untuk ukur temperatur dan kelembaban.
 Alat ini dibuat sesuai kebutuhan sistem plts di tempat ana, dan ana tidak men jamin bisa jalan di tempat lain.
+Alat ini kurang cocok untuk mengukur ke beban Inverter yang banyak Noise nya.
 
 Harus pakai Server Blynk Lokal , tutorial ada disini https://github.com/TeguhTeknisi/blynk-server
 Sekedar info, ana install server blynk ke laptop ubuntu linux, tapi bisa juga di install ke android yang di instali linux.
 Tambahan, Kalau mau pakai Server Online, silahkan modif codenya.
+
+Kode dan Skema ada 2 versi:
+1. versi 1 sensor, supaya lebih murah bisa pakai Modul Sensor INA226 dengan R Shunt R002 dengan kemampuan ukur continue 20 Ampere max 35 Volt.
+   --> versi ini hanya mengukur 1 sumber saja, dan bisa hemat sekitar 80rb karena tidak perlu beli Modul INA226 yang kedua + R Shunt FL4.
+2. versi 2 sensor, ini untuk yang ingin mengukur 2 sumber, seperti yang ana pakai, untuk ukur sumber dari Output Scc dan Baterai ke Beban. 
+   --> Kemampuan Ukur pada Modul Sensor INA226 yang kedua ana tambahkan RShunt FL4 50A 75mV, sehingga bisa ukur beban sampai 50A 35 Volt
+   --> Dengan R Shunt FL4 50A bisa 1.400 Watt untuk sistem 28 Volt yang ana pakai.
+   --> Bisa diganti ke R Shunt 100A, 150A, 200A, 250A tapi harus ganti code nya dan hati hati jika bekerja dengan Arus besar.
 
 Code harus di edit pada:
 1. Auth Token Blynk
@@ -18,8 +27,15 @@ Untuk part lain, hanya sebagai referensi harga, ana tidak menjamin kualitasnya.
 
 Kemampuan membaca Voltase Max 35 volt, disarankan 30 Volt
 Kemampuan membaca Arus tergantung nilai R Shunt.
+Untuk Kode nya ana seting untuk:
+1. Sensor 1 Continue max 20A, peak 25A pakai INA226 dengan R Shunt SMD R002
+2. Sensor 2 Continue max 50A, pakai INA226 dengan RShunt SMD R100 yang di sambung ke R Shunt Eksternal FL4 50A 75mV
 
-Codenya ana ambil dari berbagai tempat, sumbernya ada dibawah ini:
+LCD ana pakai IC I2C PCF8574  untuk IC versi lain, silahkan memakai atau mencari library yang cocok. 
+
+Komponen Kapasitor 100nF fungsinya untuk filter, usahakan pakai Kapasitor Keramik, bisa Keramik biasa atau multilayer.
+
+Untuk Codenya ana ambil dari berbagai tempat, sumbernya ada dibawah ini:
 1. https://forum.arduino.cc/t/solar-power-monitor-w-ina226-and-esp8266-v1/649695
 2. https://community.blynk.cc/t/power-monitor-dc-current-and-voltage-sensor-ina219/10297 ( referensi code max voltase, arus dan daya )
 3. https://www.engineersgarage.com/nodemcu-battery-voltage-monitor/ ( referensi alat ukur voltase pakai resistor divider )
