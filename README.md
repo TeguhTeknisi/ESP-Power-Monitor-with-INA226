@@ -7,7 +7,7 @@ Harus pakai Server Blynk Lokal , tutorial ada disini https://github.com/TeguhTek
 Sekedar info, ana install server blynk ke laptop ubuntu linux, tapi bisa juga di install ke android yang di instali linux.
 Tambahan, Kalau mau pakai Server Online, silahkan modif codenya.
 
-✔️Kode dan Skema ada 2 versi:
+✔️ Kode dan Skema ada 2 versi:
 1. versi 1 sensor, supaya lebih murah bisa pakai Modul Sensor INA226 dengan R Shunt R002 dengan kemampuan ukur continue 20 Ampere max 35 Volt.
    --> versi ini hanya mengukur 1 sumber saja, dan bisa hemat sekitar 80rb karena tidak perlu beli Modul INA226 yang kedua + R Shunt FL4.
 2. versi 2 sensor, ini untuk yang ingin mengukur 2 sumber, seperti yang ana pakai, untuk ukur sumber dari Output Scc dan Baterai ke Beban. 
@@ -15,7 +15,7 @@ Tambahan, Kalau mau pakai Server Online, silahkan modif codenya.
    --> Dengan R Shunt FL4 50A bisa 1.400 Watt untuk sistem 28 Volt yang ana pakai.
    --> Bisa diganti ke R Shunt 100A, 150A, 200A, 250A tapi harus ganti code nya dan hati hati jika bekerja dengan Arus besar.
 
-⛔Code harus di edit pada:
+⛔ Code harus di edit pada:
 1. Auth Token Blynk
 2. Nama SSID Hotspot dan Password nya.
 
@@ -35,18 +35,18 @@ Untuk Kode nya ana seting untuk:
 1. Sensor 1 Continue max 20A, peak 25A pakai INA226 dengan R Shunt SMD R002
 2. Sensor 2 Continue max 50A, pakai INA226 dengan RShunt SMD R100 yang di sambung ke R Shunt Eksternal FL4 50A 75mV
 
-☑️LCD ana pakai IC I2C PCF8574  untuk IC versi lain, silahkan memakai atau mencari library yang cocok. 
-☑️Komponen Kapasitor 100nF fungsinya untuk filter, usahakan pakai Kapasitor Keramik, bisa Keramik biasa atau multilayer.
-☑️Komponen Dioda bisa pakai IN4001 sampai IN4007, untuk pengaman jika salah polaritas agar tidak rusak.
+☑️ Modul LCD 1602 pakai IC I2C PCF8574  untuk IC versi lain, silahkan memakai atau mencari library yang cocok. 
+☑️ Komponen Kapasitor 100nF fungsinya untuk filter, usahakan pakai Kapasitor Keramik, bisa Keramik biasa atau multilayer.
+☑️ Komponen Dioda bisa pakai IN4001 sampai IN4007, untuk pengaman jika salah polaritas agar tidak rusak.
 
-✔️Untuk Codenya ana ambil dari berbagai tempat, sumbernya ada dibawah ini:
+✔️ Untuk Codenya ana ambil dari berbagai tempat, sumbernya ada dibawah ini:
 1. https://forum.arduino.cc/t/solar-power-monitor-w-ina226-and-esp8266-v1/649695
 2. https://community.blynk.cc/t/power-monitor-dc-current-and-voltage-sensor-ina219/10297 ( referensi code max voltase, arus dan daya )
 3. https://www.engineersgarage.com/nodemcu-battery-voltage-monitor/ ( referensi alat ukur voltase pakai resistor divider )
 4. https://how2electronics.com/iot-based-battery-status-monitoring-system-using-esp8266/ ( referensi alat ukur voltase pakai resistor divider )
 5. https://openenergymonitor.org/forum-archive/node/198.html ( referensi kwh meter dan log harian )
 
-✔️Part list
+✔️ Part list
 1. Sensor 1 pakai INA226 20A 36v - https://shopee.co.id/product/43270505/8591547022?smtt=0.94966776-1646228655.9 ( 49rb )
 2. Sensor 2 pakai INA226 1A 36v - https://www.tokopedia.com/lisuinstrument/ina226-bi-directional-monitor-module-voltage-current-power-alert ( 36rb )
 3. LCD 1602 - https://www.tokopedia.com/ardushopid/lcd-blue-16x2-1602-i2c-serial-connection-free-kabel-jumper-arduino ( 38rb )
@@ -60,7 +60,7 @@ Untuk Kode nya ana seting untuk:
 11. pcb berlubang - https://www.tokopedia.com/isee/pcb-dot-matrix-ic-type-5x7-5-x-7-pcb-lubang-ic-5-7-cm ( 2.400 )
 12. Sensor DHT11 - https://www.tokopedia.com/isee/dht-11-dht11-modul-sensor-kelembaban-suhu-humidity-temperature-arduino ( 17.500 )
 
-☑️Estimasi Total Biaya  Rp. 223.500
+☑️ Estimasi Total Biaya  Rp. 223.500
 
 🔴🟠 Resistor 100K bisa ganti 120K agar maks ukur jadi 43v tapi harus modif code nya dan ic LM7805 diganti modul step down 5v
 karena ic LM7805 punya maks inut 35 volt saja.
