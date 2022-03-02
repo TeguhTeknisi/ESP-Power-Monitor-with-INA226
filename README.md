@@ -1,8 +1,20 @@
 # ESP-Power-Monitor-with-INA226
 ESP8266 Power Monitor with INA226 adalah alat ukur voltase, arus, daya dan energi dengan tambahan modul dht11 untuk ukur temperatur dan kelembaban.
 Alat ini dibuat sesuai kebutuhan sistem plts di tempat ana, dan ana tidak men jamin bisa jalan di tempat lain.
+
+Harus pakai Server Blynk Lokal , tutorial ada disini https://github.com/TeguhTeknisi/blynk-server
+Sekedar info, ana install server blynk ke laptop ubuntu linux, tapi bisa juga di install ke android yang di instali linux.
+Tambahan, Kalau mau pakai Server Online, silahkan modif codenya.
+
+Code harus di edit pada:
+1. Auth Token Blynk
+2. Nama SSID Hotspot dan Password nya.
+
 Untuk tingkat akurasinya sudah cukup bagus menurut ana, dengan membandingkan pengukuran arus dan voltase pakai multimeter Zoyi ZT102A
 Karena keterbatasan kemampuan ana dalam coding dan elektronika mikrokontroller, pada alat ukur voltase dari INA226 nya tidak akurat, jadi ana ganti mengukur pakai ADC. 
+
+Untuk Sensor INA226 beli di link yang ana kasih dibawah, Insya Allah terjamin.
+Untuk part lain, hanya sebagai referensi harga, ana tidak menjamin kualitasnya.
 
 Kemampuan membaca Voltase Max 35 volt, disarankan 30 Volt
 Kemampuan membaca Arus tergantung nilai R Shunt.
