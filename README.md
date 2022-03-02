@@ -1,5 +1,5 @@
 # ESP-Power-Monitor-with-INA226
-ESP8266 Power Monitor with INA226 adalah alat ukur voltase, arus, daya dan energi dengan tambahan modul dht11 untuk ukur temperatur dan kelembaban.
+ESP8266 Power Monitor with INA226 adalah alat ukur voltase, arus, daya dan energi dengan tambahan modul DHT11 untuk ukur temperatur dan kelembaban.
 Alat ini dibuat sesuai kebutuhan sistem plts di tempat ana, dan ana tidak men jamin bisa jalan di tempat lain.
 Alat ini kurang cocok untuk mengukur ke beban Inverter yang banyak Noise nya.
 
@@ -24,6 +24,10 @@ Karena keterbatasan kemampuan ana dalam coding dan elektronika mikrokontroller, 
 
 Untuk Sensor INA226 beli di link yang ana kasih dibawah, Insya Allah terjamin.
 Untuk part lain, hanya sebagai referensi harga, ana tidak menjamin kualitasnya.
+
+HATI HATI, ada modul INA226 Palsu, ana pernah beli dan gak bisa didetek I2C nya pakai I2C Scanner, tapi pas di ganti alamat ke 0x50 bisa detek tapi hanya tampil pengukuran Voltase tapi gak bisa dipakai buat ukur voltase.
+NodeMCU dan Wemos D1 juga mulai muncul dengan raqgam kualitas yang gak bisa dilihat dari harga, bisa murah atau mahal.
+Biasanya buat upload code akan sering error karena kualitas Chip Flash nya yang kurang bagus, atau yang parah gak bisa di program karena Chip Flash nya rusak.
 
 Kemampuan membaca Voltase Max 35 volt, disarankan 30 Volt
 Kemampuan membaca Arus tergantung nilai R Shunt.
