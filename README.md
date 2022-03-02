@@ -35,8 +35,10 @@ Untuk Kode nya ana seting untuk:
 1. Sensor 1 Continue max 20A, peak 25A pakai INA226 dengan R Shunt SMD R002
 2. Sensor 2 Continue max 50A, pakai INA226 dengan RShunt SMD R100 yang di sambung ke R Shunt Eksternal FL4 50A 75mV
 
-☑️ Modul LCD 1602 pakai IC I2C PCF8574  untuk IC versi lain, silahkan memakai atau mencari library yang cocok. 
+☑️ Modul LCD 1602 pakai IC I2C PCF8574  untuk IC versi lain, silahkan memakai atau mencari library yang cocok.
+
 ☑️ Komponen Kapasitor 100nF fungsinya untuk filter, usahakan pakai Kapasitor Keramik, bisa Keramik biasa atau multilayer.
+
 ☑️ Komponen Dioda bisa pakai IN4001 sampai IN4007, untuk pengaman jika salah polaritas agar tidak rusak.
 
 ✔️ Untuk Codenya ana ambil dari berbagai tempat, sumbernya ada dibawah ini:
