@@ -57,10 +57,10 @@ Untuk Kode nya ana seting untuk:
 4. Wemos D1 Mini - https://www.tokopedia.com/hwthinker/wemos-d1-mini-nodemcu-lua-wifi-arduino-iot-based-on-esp8266 ( 36rb )
 5. R Shunt 50A FL4 untuk Sensor 2 - https://www.tokopedia.com/avarelectric/fl-2-r-shunt-50a-dc-power-meter-current-50-a-fl-2 ( 40rb )
 6. LM 7805 - https://www.tokopedia.com/search?st=product&q=LM7805 ( 1.400 )
-7. Kapasitor Keramik 100nf 104 - https://www.tokopedia.com/isee/kapasitor-100nf-50v-104-multilayer-monolithic-ceramic-capasitor-0-1uf ( 300 x 3 = 900 )
+7. Kapasitor Keramik 100nf 104 - https://www.tokopedia.com/lisuinstrument/0-1uf-100nf-50v-104-multilayer-monolithic-ceramic-capacitor ( 300 x 3 = 900 )
 8. Resistor 100K - https://www.tokopedia.com/isee/10-pcs-resistor-100k-100-kilo-ohm-1-4-watt-0-25-metal-film-1-toleran ( 10pcs - 1.000 )
 9. Resistor 10K - https://www.tokopedia.com/isee/10-pcs-resistor-10k-10-kilo-ohm-1-4-watt-0-25-metal-film-1-toleran ( 10pcs - 1.000 )
-10. Dioda 1A - https://www.tokopedia.com/isee/dioda-diode-in4001-in-4001 ( 200 )
+10. Dioda 1A - https://www.tokopedia.com/lisuinstrument/in4001-1n4001-4001-general-purpose-plastic-rectifier-do-41 ( 200 )
 11. pcb berlubang - https://www.tokopedia.com/isee/pcb-dot-matrix-ic-type-5x7-5-x-7-pcb-lubang-ic-5-7-cm ( 2.400 )
 12. Sensor DHT11 - https://www.tokopedia.com/isee/dht-11-dht11-modul-sensor-kelembaban-suhu-humidity-temperature-arduino ( 17.500 )
 
