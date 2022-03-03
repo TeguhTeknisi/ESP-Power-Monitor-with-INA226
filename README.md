@@ -68,7 +68,9 @@ Untuk Kode nya ana seting untuk:
 12. Sensor DHT11 - https://www.tokopedia.com/best-ay/modul-dht11-sensor-kelembaban-suhu-humidity-temperature-digital ( 14.950 )
 
 ☑️ Estimasi Total Biaya:
+
 🟠 Untuk 1 Sensor Rp. 139.000 sampai Rp. 147.500
+
 🔴 Untuk 2 Sensor Rp. 215.000 sampai Rp. 223.500
 
 🔴🟠 Resistor 100K bisa ganti 120K agar maks ukur jadi 43v tapi harus modif code nya dan ic LM7805 diganti modul step down 5v
