@@ -19,18 +19,21 @@ Tambahan, Kalau mau pakai Server Online, silahkan modif codenya.
 1. Auth Token Blynk
 2. Nama SSID Hotspot dan Password nya.
 
-Untuk tingkat akurasinya sudah cukup bagus menurut ana, dengan membandingkan pengukuran arus dan voltase pakai multimeter Zoyi ZT102A
+📣 Untuk memudahkan kompile, sudah ana sediakan file <b>libraries.zip</b> dan <b>libraries.tar.gz</b> ( pilih salah satu, cuma beda ekstensi saja )
+Isi file nya adalah library untuk Blynk, INA226, LCD I2C PCF8574 dan DHT11
+
+📣 Untuk tingkat akurasinya sudah cukup bagus menurut ana, dengan membandingkan pengukuran arus dan voltase pakai multimeter Zoyi ZT102A
 Karena keterbatasan kemampuan ana dalam coding dan elektronika mikrokontroller, pada alat ukur voltase dari INA226 nya tidak akurat, jadi ana ganti mengukur pakai ADC. 
 
-Untuk Sensor INA226 beli di link yang ana kasih dibawah, Insya Allah terjamin.
+📣 Untuk Sensor INA226 beli di link yang ana kasih dibawah, Insya Allah terjamin.
 Untuk part lain, hanya sebagai referensi harga, ana tidak menjamin kualitasnya.
 
 ⛔ HATI HATI, ada modul INA226 Palsu, ana pernah beli dan gak bisa didetek I2C nya pakai I2C Scanner, tapi pas di ganti alamat ke 0x50 bisa detek tapi hanya tampil pengukuran Voltase tapi gak bisa dipakai buat ukur voltase.
 NodeMCU dan Wemos D1 juga mulai muncul dengan raqgam kualitas yang gak bisa dilihat dari harga, bisa murah atau mahal.
 Biasanya buat upload code akan sering error karena kualitas Chip Flash nya yang kurang bagus, atau yang parah gak bisa di program karena Chip Flash nya rusak.
 
-✔️Kemampuan membaca Voltase Max 35 volt, disarankan 30 Volt
-✔️Kemampuan membaca Arus tergantung nilai R Shunt.
+✔️ Kemampuan membaca Voltase Max 35 volt, disarankan 30 Volt
+✔️ Kemampuan membaca Arus tergantung nilai R Shunt.
 Untuk Kode nya ana seting untuk:
 1. Sensor 1 Continue max 20A, peak 25A pakai INA226 dengan R Shunt SMD R002
 2. Sensor 2 Continue max 50A, pakai INA226 dengan RShunt SMD R100 yang di sambung ke R Shunt Eksternal FL4 50A 75mV
