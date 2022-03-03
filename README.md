@@ -1,4 +1,6 @@
 # ESP-Power-Monitor-with-INA226
+Bismillah
+
 <b>ESP8266 Power Monitor with INA226</b> adalah alat ukur voltase, arus, daya dan energi dengan tambahan modul DHT11 untuk ukur temperatur dan kelembaban.
 Alat ini dibuat sesuai kebutuhan sistem plts di tempat ana, dan ana tidak men jamin bisa jalan di tempat lain.
 Alat ini kurang cocok untuk mengukur ke beban Inverter yang banyak Noise nya.
@@ -78,5 +80,14 @@ Untuk Kode nya ana seting untuk:
 
 🔴🟠 Resistor 100K bisa ganti 120K agar maks ukur jadi 43v tapi harus modif code nya dan ic LM7805 diganti modul step down 5v
 karena ic LM7805 punya maks inut 35 volt saja.
+
+<b>Foto Foto Prototype:</b>
+
+<img src="https://github.com/TeguhTeknisi/ESP-Power-Monitor-with-INA226/blob/main/ESP%20Power%20Monitor%20Prototype%201.jpeg" width=50% height=50%>
+<img src="https://github.com/TeguhTeknisi/ESP-Power-Monitor-with-INA226/blob/main/ESP%20Power%20Monitor%20Prototype%202.jpeg" width=50% height=50%>
+<img src="https://github.com/TeguhTeknisi/ESP-Power-Monitor-with-INA226/blob/main/ESP%20Power%20Monitor%20Prototype%203.jpeg" width=50% height=50%>
+<img src="https://github.com/TeguhTeknisi/ESP-Power-Monitor-with-INA226/blob/main/ESP%20Power%20Monitor%20Prototype%20Tes.jpeg" width=50% height=50%>
+<img src="https://github.com/TeguhTeknisi/ESP-Power-Monitor-with-INA226/blob/main/ESP%20Power%20Monitor%20Prototype%20Blynk.jpeg" width=50% height=50%>
+
 
 Semoga membantu dan bermanfaat.
