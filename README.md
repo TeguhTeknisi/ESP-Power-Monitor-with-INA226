@@ -35,6 +35,8 @@ Untuk Kode nya ana seting untuk:
 1. Sensor 1 Continue max 20A, peak 25A pakai INA226 dengan R Shunt SMD R002
 2. Sensor 2 Continue max 50A, pakai INA226 dengan RShunt SMD R100 yang di sambung ke R Shunt Eksternal FL4 50A 75mV
 
+☑️ Kit ESP8266 bisa pakai Wemos D1 Mini agar kecil ringkas, atau pakai NodeMCU bentuk agak besar, ana pakai NodeMCU
+
 ☑️ Modul LCD 1602 pakai IC I2C PCF8574  untuk IC versi lain, silahkan memakai atau mencari library yang cocok.
 
 ☑️ Komponen Kapasitor 100nF fungsinya untuk filter, usahakan pakai Kapasitor Keramik, bisa Keramik biasa atau multilayer.
@@ -55,6 +57,7 @@ Untuk Kode nya ana seting untuk:
 2. Sensor 2 pakai INA226 1A 36v - https://www.tokopedia.com/lisuinstrument/ina226-bi-directional-monitor-module-voltage-current-power-alert ( 36rb )
 3. LCD 1602 - https://www.tokopedia.com/ardushopid/lcd-blue-16x2-1602-i2c-serial-connection-free-kabel-jumper-arduino ( 38rb )
 4. Wemos D1 Mini - https://www.tokopedia.com/hwthinker/wemos-d1-mini-nodemcu-lua-wifi-arduino-iot-based-on-esp8266 ( 36rb )
+   NodeMCU - https://www.tokopedia.com/best-ay/nodemcu-lua-wifi-v3-wifi-iof-esp8266-esp12-ch340g-board ( Rp. 34.500 )
 5. R Shunt 50A FL4 untuk Sensor 2 - https://www.tokopedia.com/avarelectric/fl-2-r-shunt-50a-dc-power-meter-current-50-a-fl-2 ( 40rb )
 6. LM 7805 - https://www.tokopedia.com/search?st=product&q=LM7805 ( 1.400 )
 7. Kapasitor Keramik 100nf 104 - https://www.tokopedia.com/lisuinstrument/0-1uf-100nf-50v-104-multilayer-monolithic-ceramic-capacitor ( 300 x 3 = 900 )
@@ -62,9 +65,11 @@ Untuk Kode nya ana seting untuk:
 9. Resistor 10K - https://www.tokopedia.com/isee/10-pcs-resistor-10k-10-kilo-ohm-1-4-watt-0-25-metal-film-1-toleran ( 10pcs - 1.000 )
 10. Dioda 1A - https://www.tokopedia.com/lisuinstrument/in4001-1n4001-4001-general-purpose-plastic-rectifier-do-41 ( 200 )
 11. pcb berlubang - https://www.tokopedia.com/isee/pcb-dot-matrix-ic-type-5x7-5-x-7-pcb-lubang-ic-5-7-cm ( 2.400 )
-12. Sensor DHT11 - https://www.tokopedia.com/isee/dht-11-dht11-modul-sensor-kelembaban-suhu-humidity-temperature-arduino ( 17.500 )
+12. Sensor DHT11 - https://www.tokopedia.com/best-ay/modul-dht11-sensor-kelembaban-suhu-humidity-temperature-digital ( 14.950 )
 
-☑️ Estimasi Total Biaya  Rp. 223.500
+☑️ Estimasi Total Biaya:
+🟠 Untuk 1 Sensor Rp. 139.000 sampai Rp. 147.500
+🔴 Untuk 2 Sensor Rp. 215.000 sampai Rp. 223.500
 
 🔴🟠 Resistor 100K bisa ganti 120K agar maks ukur jadi 43v tapi harus modif code nya dan ic LM7805 diganti modul step down 5v
 karena ic LM7805 punya maks inut 35 volt saja.
