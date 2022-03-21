@@ -21,6 +21,7 @@ Tambahan, Kalau mau pakai Server Online, silahkan modif codenya.
 1. Auth Token Blynk
 2. Nama SSID Hotspot dan Password nya.
 
+
 📣 Untuk memudahkan kompile, sudah ana sediakan file <b>libraries.zip</b> dan <b>libraries.tar.gz</b> ( pilih salah satu, cuma beda ekstensi saja )
 Isi file nya adalah library untuk Blynk, INA226, LCD I2C PCF8574 dan DHT11
 
@@ -78,8 +79,12 @@ Untuk Kode nya ana seting untuk:
 
 🔴 Untuk 2 Sensor Rp. 215.000 sampai Rp. 223.500
 
-🔴🟠 Resistor 100K bisa ganti 120K agar maks ukur jadi 43v tapi harus modif code nya dan ic LM7805 diganti modul step down 5v
-karena ic LM7805 punya maks inut 35 volt saja.
+⛔ Untuk pengukuran diatas 12v, Harus mengganti ic regulator LM7805 diganti modul step down 5v
+karena ic LM7805 jika diberi voltase input diatas 12v akan kepanasan, jika dibiarkan lama, bisa merusak Nodemcu.
+
+🔴🟠 Resistor 100K bisa ganti 120K agar maks ukur jadi 43v tapi harus modif code nya dan ic regulator LM7805 diganti modul step down 5v
+karena ic LM7805 jika diberi voltase input diatas 12v akan kepanasan, jika dibiarkan lama, bisa merusak Nodemcu.
+
 
 <b>Foto Foto Prototype:</b>
 
@@ -88,6 +93,10 @@ karena ic LM7805 punya maks inut 35 volt saja.
 <img src="https://github.com/TeguhTeknisi/ESP-Power-Monitor-with-INA226/blob/main/ESP%20Power%20Monitor%20Prototype%203.jpeg" width=50% height=50%>
 <img src="https://github.com/TeguhTeknisi/ESP-Power-Monitor-with-INA226/blob/main/ESP%20Power%20Monitor%20Prototype%20Tes.jpeg" width=50% height=50%>
 <img src="https://github.com/TeguhTeknisi/ESP-Power-Monitor-with-INA226/blob/main/ESP%20Power%20Monitor%20Prototype%20Blynk.jpeg" width=50% height=50%>
+<img src="https://github.com/TeguhTeknisi/ESP-Power-Monitor-with-INA226/blob/main/ESP%20Power%20Monitor%20Prototype%20Blynk%202.png" width=50% height=50%>
+
+<b>Video tampilan Blynk Prototype:</b>
+<video src="https://user-images.githubusercontent.com/32675055/159250105-12d3eaf4-a2be-465b-95e1-02a9efdc0cbc.mp4"></video>
 
 
 Semoga membantu dan bermanfaat.
