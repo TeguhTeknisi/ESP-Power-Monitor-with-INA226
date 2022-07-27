@@ -26,7 +26,7 @@ Tambahan, Kalau mau pakai Server Online, silahkan modif codenya.
 Isi file nya adalah library untuk Blynk, INA226, LCD I2C PCF8574 dan DHT11
 
 📣 Untuk tingkat akurasinya sudah cukup bagus menurut ana, dengan membandingkan pengukuran arus dan voltase pakai multimeter Zoyi ZT102A
-Karena keterbatasan kemampuan ana dalam coding dan elektronika mikrokontroller, pada alat ukur voltase dari INA226 nya tidak akurat, jadi ana ganti mengukur pakai ADC. 
+Karena R Shunt akan panas, jika arus besar lewat, maka panas nya akan menyebar ke chip ic INA226 itu akan membuat pengukuran voltase dari INA226 nya jadi tidak akurat, jadi Solusinya, ana tambahkan metode pengukuran memakai ADC dan untuk Solusi lain nya, R Shunt sebaiknya di jauhkan dari Chip IC INA226 dengan kabel yang panjangnya minimal 10cm sampai 15 cm )
 
 📣 Untuk Sensor INA226 beli di link yang ana kasih dibawah, Insya Allah terjamin.
 Untuk part lain, hanya sebagai referensi harga, ana tidak menjamin kualitasnya.
