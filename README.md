@@ -73,11 +73,11 @@ Untuk Kode nya ana seting untuk:
 11. pcb berlubang - https://www.tokopedia.com/isee/pcb-dot-matrix-ic-type-5x7-5-x-7-pcb-lubang-ic-5-7-cm ( 2.400 )
 12. Sensor DHT11 - https://www.tokopedia.com/best-ay/modul-dht11-sensor-kelembaban-suhu-humidity-temperature-digital ( 14.950 )
 
-☑️ Estimasi Total Biaya:
+☑️ Estimasi Total Biaya per Juni 2022 ( bisa berubah seiring berjalannya waktu ):
 
-🟠 Untuk 1 Sensor Rp. 139.000 sampai Rp. 147.500
+🟠 Untuk 1 Sensor Rp. 139.000 sampai Rp. 147.500 ( belum timah, box, kabel, dll )
 
-🔴 Untuk 2 Sensor Rp. 215.000 sampai Rp. 223.500
+🔴 Untuk 2 Sensor Rp. 215.000 sampai Rp. 223.500 ( belum timah, box, kabel, dll )
 
 ⛔ Untuk pengukuran diatas 12v, Harus mengganti ic regulator LM7805 diganti modul step down 5v
 karena ic LM7805 jika diberi voltase input diatas 12v akan kepanasan, jika dibiarkan lama, bisa merusak Nodemcu.
