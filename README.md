@@ -60,17 +60,32 @@ Untuk Kode nya ana seting untuk:
 
 ✔️ Part list
 1. Sensor 1 pakai INA226 20A 36v - https://shopee.co.id/product/43270505/8591547022?smtt=0.94966776-1646228655.9 ( 49rb )
-2. Sensor 2 pakai INA226 1A 36v - https://www.tokopedia.com/lisuinstrument/ina226-bi-directional-monitor-module-voltage-current-power-alert ( 36rb )
-3. LCD 1602 - https://www.tokopedia.com/ardushopid/lcd-blue-16x2-1602-i2c-serial-connection-free-kabel-jumper-arduino ( 38rb )
-4. Wemos D1 Mini - https://www.tokopedia.com/hwthinker/wemos-d1-mini-nodemcu-lua-wifi-arduino-iot-based-on-esp8266 ( 36rb )
-   NodeMCU - https://www.tokopedia.com/best-ay/nodemcu-lua-wifi-v3-wifi-iof-esp8266-esp12-ch340g-board ( Rp. 34.500 )
-5. R Shunt 50A FL4 untuk Sensor 2 - https://www.tokopedia.com/avarelectric/fl-2-r-shunt-50a-dc-power-meter-current-50-a-fl-2 ( 40rb )
+Alternatif nya
+INA226 maks 36v 1A - https://shope.ee/6pZNHZQZvh?share_channel_code=2
+INA219 maks 26v 3,2A - https://shope.ee/6fFx5JUKef?share_channel_code=2
+
+2. Sensor 2 pakai INA226 1A 36v - https://shope.ee/6pZNHZQZvh?share_channel_code=2
+INA219 maks 26v 3,2A - https://shope.ee/6fFx5JUKef?share_channel_code=2
+
+3. LCD 1602 - 
+https://shope.ee/8A4ksROCPI?share_channel_code=2 ( 37rb )
+
+4. Wemos D1 Mini - https://shope.ee/VfJkTWUDK?share_channel_code=2 ( 42rb )
+
+5. R Shunt 50A FL4 untuk Sensor 2 - https://shope.ee/5KkZVU27kJ?share_channel_code=2 ( 30rb )
+
 6. LM 7805 - https://www.tokopedia.com/search?st=product&q=LM7805 ( 1.400 )
+
 7. Kapasitor Keramik 100nf 104 - https://www.tokopedia.com/lisuinstrument/0-1uf-100nf-50v-104-multilayer-monolithic-ceramic-capacitor ( 300 x 3 = 900 )
+
 8. Resistor 100K - https://www.tokopedia.com/isee/10-pcs-resistor-100k-100-kilo-ohm-1-4-watt-0-25-metal-film-1-toleran ( 10pcs - 1.000 )
+
 9. Resistor 10K - https://www.tokopedia.com/isee/10-pcs-resistor-10k-10-kilo-ohm-1-4-watt-0-25-metal-film-1-toleran ( 10pcs - 1.000 )
+
 10. Dioda 1A - https://www.tokopedia.com/lisuinstrument/in4001-1n4001-4001-general-purpose-plastic-rectifier-do-41 ( 200 )
+
 11. pcb berlubang - https://www.tokopedia.com/isee/pcb-dot-matrix-ic-type-5x7-5-x-7-pcb-lubang-ic-5-7-cm ( 2.400 )
+
 12. Sensor DHT11 - https://www.tokopedia.com/best-ay/modul-dht11-sensor-kelembaban-suhu-humidity-temperature-digital ( 14.950 )
 
 ☑️ Estimasi Total Biaya per Juni 2022 ( bisa berubah seiring berjalannya waktu ):
