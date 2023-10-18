@@ -60,6 +60,7 @@ Untuk Kode nya ana seting untuk:
 
 ✔️ Part list
 1. Sensor 1 pakai INA226 20A 36v - https://shopee.co.id/product/43270505/8591547022?smtt=0.94966776-1646228655.9 ( 49rb )
+
 Alternatif nya
 INA226 maks 36v 1A - https://shope.ee/6pZNHZQZvh?share_channel_code=2
 INA219 maks 26v 3,2A - https://shope.ee/6fFx5JUKef?share_channel_code=2
